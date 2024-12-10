@@ -11,7 +11,7 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         // Allow cross-origin requests from your frontend URL
         registry.addMapping("/**")  // Apply CORS to all endpoints
-                .allowedOrigins("http://localhost:3000")  // Allow requests from localhost:3000
+                .allowedOrigins("https://jfsdproject-8b5sdo3kw-gnaneswars-projects-e279d85a.vercel.app/")  // Allow requests from localhost:3000
                 .allowedMethods("GET", "POST", "PUT", "DELETE")  // Allowed HTTP methods
                 .allowedHeaders("*")  // Allow all headers
                 .allowCredentials(true);  // Allow credentials (like cookies or authorization headers)
