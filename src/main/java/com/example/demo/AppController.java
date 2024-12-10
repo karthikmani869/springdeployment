@@ -18,7 +18,7 @@ public class AppController {
     private UserRepository userRepository;
     @GetMapping("/")
     public String fun1() {
-    	return "welcoe";
+    	return "welcome";
     }
 
     @PostMapping("/use")
