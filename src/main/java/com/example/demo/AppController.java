@@ -48,7 +48,7 @@ public class AppController {
         Map<String, Object> response = new HashMap<>();
         
         // Check for hardcoded admin credentials
-        if ("admin@artgallery".equals(username) && "12345678".equals(password)) {
+        if ("admin".equals(username) && "admin".equals(password)) {
             response.put("success", true);
             response.put("message", "Admin login successful");
             response.put("role", "ADMIN");
